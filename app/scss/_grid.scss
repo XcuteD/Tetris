@@ -1,0 +1,15 @@
+.grid {
+    outline: 4px solid #000;
+
+    &__row {
+        display: flex;
+        height: $CELL_HEIGHT;
+    }
+    &__cell {
+        outline: 1px dashed #000;
+        width: $CELL_WIDTH;
+    }
+    &__cell_fill {
+        background-color: $FILL_COLOR;
+    }
+}
