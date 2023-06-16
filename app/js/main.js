@@ -597,7 +597,7 @@ function FigureReverseСrutch() {
                         this.leftBorder[1] = [...this.position[3]]
                         this.leftBorder.splice(2,1)
                         this.rightBorder[0] = [...this.position[2]]
-                        this.rightBorder[0] = [...this.position[3]]
+                        this.rightBorder[1] = [...this.position[3]]
                         this.rightBorder.splice(2,1)
                         this.direction = 'left'
                     }
